@@ -70,10 +70,10 @@ public class ClientRest  {
 	private void updateCustomer (String id){
 		Form form = new Form();
 		form.param("CustomerDocID", id);
-		form.param("FirstName", "Dmitriy");
-		form.param("LastName", "Rabykin");
-		form.param("Email", "radmiyrdv@gmail.com");
-		form.param("Phone", "+375293672928");
+		form.param("FirstName", "D*y");
+		form.param("LastName", "R*n");
+		form.param("Email", "r*v@gmail.com");
+		form.param("Phone", "+3*8");
 
 		String callResult = client
 				.target(REST_SERVICE_URL)
